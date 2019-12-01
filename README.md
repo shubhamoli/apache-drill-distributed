@@ -46,7 +46,6 @@ Following defaults and assumtions are made:
 - Owner - drill (uid 1000)
 - Group - drill (gid 1000)
 - Logs - STDOUT
-- 
 
 
 
