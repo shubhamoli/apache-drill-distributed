@@ -55,3 +55,5 @@ Following defaults and assumtions are made:
 
 [ ] Remove copying of `drill-override.conf` and modify `CLUSTER_ID` and `ZK_SERVERS` directly
 
+[ ] Add user auth configuration
+
