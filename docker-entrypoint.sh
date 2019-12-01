@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -eux;
+set -eu;
 
 # Allow the container to be started with drill user
 if [[ "$(id -u)" = '0' ]]; then
