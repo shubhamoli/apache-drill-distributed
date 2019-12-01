@@ -2,31 +2,30 @@
 
 ## What?
 
-This is an attempt to create an image of Apache Drill for running Drill in distributed mode.
+This is an attempt to create an Docker image of Apache Drill for running Drill in distributed mode.
 
 ## Why?
 
-In [Official docs](https://drill.apache.org/docs/runaning-drill-on-docker), of apache drill, it is mentioned 
-> Currently, you can only run Drill in embedded mode in a Docker container. Embedded mode is when a single instance of Drill runs on a node or in a container. You do not have to perform any configuration tasks when Drill runs in embedded mode.
+If you use official Apache drill docker image then please note that -- In [Official docs](https://drill.apache.org/docs/runaning-drill-on-docker), of apache drill, it's clearly mentioned:
+
+> Currently, you can only run Drill in embedded mode in a Docker container. Embedded mode is when a single instance of Drill runs on a node or in a container.
 
 
 ## **Getting started**
 
 1. Build image 
 
-    `$ docker build -t drill:1.15.0 .`
+    `$ docker build -t apache-drill:1.15.0 .`
+
+    OR, pull it from DockerHub
+
+    `$ docker pull olishubham/apache-drill:1.15.0`
 
 2. Run a container
 
-    `$ docker run -it --name apache-drill drill:1.15.0 `
-
-    OR
-    
-    Pull it directly from my DockerHub Repo
-    
     `$ docker run -it --name apache-drill olishubham/apache-drill:1.15.0 `
 
-    OR 
+    OR
 
     Refernce the image in K8s deployments
 
