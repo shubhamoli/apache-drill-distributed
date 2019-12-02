@@ -50,6 +50,8 @@ Following defaults and assumtions are made:
 
 ## **TODOs**
 
+[ ] Multi-stage build to reduce image size (~900 MB current)
+
 [ ] Add support for more configuration at runtime using ENV variables (like modifying logging behaviour)
 
 [ ] Remove copying of `drill-override.conf` and modify `CLUSTER_ID` and `ZK_SERVERS` directly
