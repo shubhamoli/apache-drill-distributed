@@ -1,6 +1,16 @@
 #!/bin/bash
 
 # Replica of drillbit.sh
+#
+# It is renamed as start.sh 
+# to indicate that we aren't using default drillbit.sh
+#
+# Modifications from drillbit.sh
+#
+# 1. Logging to stdout instead of a file
+# 2. bit is running in foreground
+#
+#
 
 usage="Usage: start.sh [--config|--site <site-dir>]\
  (start|stop|status|restart|run|graceful_stop) [args]"
