@@ -2,7 +2,7 @@
 
 ## What?
 
-This is an attempt to create an Docker image of Apache Drill for running Drill in distributed mode.
+This is an attempt to create an Docker image of Apache Drill for running Drill in distributed mode as StatefulSet in Kubernetes.
 
 ## Why?
 
